@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather iconds-->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- tailwind-->
+    <link href="/public/style.css" rel="stylesheet" />
+    <link href="/public/mycss.css" rel="stylesheet" />
+    <title>IDEACOFFE</title>
+  </head>
+
+  <body class="bg-kopi-dark text-white">
+    <header class="z-10 sticky top-0 pt-10 pb-5 border-b border-kopi">
+      <!-- navbar start-->
+      <nav
+        class="navbar bg-kopi-dark/80 w-9/12 flex flex-row mx-auto justify-between"
+      >
+        <div class="uppercase text-lg basis-1/4">
+          <a href="#"
+            ><span class="font-extrabold font-scp italic text-2xl text-white"
+              >Idea</span
+            ><span class="font-extrabold font-scp italic text-2xl text-kopi"
+              >coffee</span
+            ></a
+          >
+        </div>
+
+        <div
+          class="navbar-nav basis-1/2 flex justify-evenly text-base font-scp"
+        >
+          <a class="hover:text-kopi group" href="#"><span>Home</span></a>
+          <a class="hover:text-kopi group" href="#about"
+            ><span>Tentang Kami</span></a
+          >
+          <a class="hover:text-kopi group" href="#menu"><span>Menu</span></a>
+          <a class="hover:text-kopi group" href="#contact"
+            ><span>Kontak</span></a
+          >
+        </div>
+
+        <div class="navbar-extra basis-1/4 flex justify-end">
+          <a href="#" id="search"><i data-feather="search"></i></a>
+          <a href="#" id="shopping-cart"
+            ><i data-feather="shopping-cart"></i
+          ></a>
+          <a href="#" id="hamburger-menu" class="hidden"
+            ><i data-feather="menu"></i
+          ></a>
+        </div>
+      </nav>
+      <!-- navbar end-->
+    </header>
+
+    <!-- hero  sction start-->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Mari Nikmati secangkir <span>kopi</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, ex?
+        </p>
+        <a href="#" class="cta">Beli Sekarang</a>
+      </main>
+    </section>
+    <!-- hero  sction end-->
+    <!-- Feather icons-->
+    <script>
+      feather.replace();
+    </script>
+    <script src="public/js/script.js"></script>
+  </body>
+</html>
